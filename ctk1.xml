@@ -35,7 +35,16 @@
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="movement_stop" id="13"></block>
+                                  <block type="movement_rightmotor" id="23" inline="true">
+                                    <value name="MOVRIGHT">
+                                      <block type="math_number" id="30">
+                                        <field name="NUM">5000</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="movement_stop" id="13"></block>
+                                    </next>
+                                  </block>
                                 </next>
                               </block>
                             </next>
